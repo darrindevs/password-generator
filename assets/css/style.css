@@ -1,0 +1,35 @@
+/* Create CSS variables at the root of the document to be used throughout the style sheet */
+:root {
+  --white: #fff;
+  --gray: #808080;
+  --dark: black;
+  --color: purple;
+}
+
+/* Document level styles
+*
+ */
+
+* {
+  
+}
+
+html {
+  
+}
+
+body {
+  font-family: Monospace, Roboto, sans-serif;
+}
+
+a:hover {
+  color:;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  
+  
+}

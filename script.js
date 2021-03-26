@@ -63,8 +63,15 @@ function randomize(bank) {
   // += keeps what was in the value before and adds 
   vault += bank[Math.floor(Math.random() * bank.length)]
 }
+// * if the user doesn't select any criteria then prompt them to start over
+if (!numbers && !upperCase && !lowerCase && !symbols) {
+  window.alert("Please start over and select at least one of upper case, lower case, numbers or symbols!");
+} else {
+//* otherwise generate the password
 console.log(vault);
 return vault;
+}
+
 }; 
 
 

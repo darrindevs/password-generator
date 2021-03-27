@@ -1,6 +1,6 @@
 # Awesome Password Generator
 
-<img src="assets/images/class_portfolio.png" alt="Pic of application"
+<img src="assets/Awesome-Password-Generator.png" alt="Pic of application"
 title="Class Portfolio" width="150" />
 
 ## Deployed Application
@@ -22,13 +22,13 @@ JavaScript does all the heavy lifting with a handful of methods like window.prom
 
 ## Code Snippet
 
-function randomize(bank) {
+ function randomize(bank) {
  var vault = "";
  for (i = 0; i < pLength; i++) {
-  // loop thru bank and pull characters 
-  // += keeps what was in the value before and adds 
-  vault += bank[Math.floor(Math.random() * bank.length)]
-}
+ // loop thru bank and pull characters 
+ // += keeps what was in the value before and adds 
+ vault += bank[Math.floor(Math.random() * bank.length)]
+ }
 
 ## Notes
 

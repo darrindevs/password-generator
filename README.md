@@ -4,7 +4,7 @@
 title="Class Portfolio" width="150" />
 
 ## Deployed Application
-[Awesome Password Generator](https://darrindevs.github.io/password-generator/)
+[Awesome Password Generator](https://zno.s3-us-west-1.amazonaws.com/Awesome-Password-Generator.png)
 
 ## Summary 
 This project is a basic (Awesome!) password generator which allows the user to select a series of criteria to generate a random password up to 128 characters. 

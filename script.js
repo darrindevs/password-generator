@@ -68,7 +68,7 @@ function randomize(bank) {
 if (!numbers && !upperCase && !lowerCase && !symbols) {
   window.alert("Please start over and select at least one of upper case, lower case, numbers or symbols!");
 } else {
-  //* Otherwise generate the password
+  //* otherwise generate the password
 console.log(vault);
 return vault;
 }

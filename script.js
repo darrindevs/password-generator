@@ -6,11 +6,16 @@ var numberValues = "0123456789";
 var symbolValues = "!@#$%^&*()<>?";
 
 //* Declare user confirm variables 
-var pLength  ; 
+var pLength ;
 var numbers = false;
 var upperCase = false;
 var lowerCase = false;
 var symbols = false;
+var range = {
+  from: 8,
+  to: 128
+};
+
 
 
 //* Assignment Code: when the user clicks the button prompt them to select criteria
@@ -24,7 +29,7 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   // *the user inputs the length of the password 
   pLength = window.prompt("Please enter a number between 8-128 characters to set password length");
-  while (pLength < 8 || pLength > 128 ) { 
+  while (pLength < 8 || pLength > 128)  { 
       pLength = window.prompt("Please try again with a number between 8 - 128"); 
   }
   //*the user inputs either ok = true or cancel = false for these values 

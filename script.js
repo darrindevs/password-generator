@@ -1,4 +1,4 @@
-// * create the values to use in the randomly generated password  
+// * Create the values to use in the randomly generated password  
 var empty = "";
 var uCaseValues = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lCaseValues = "abcdefghijklmnopqrstuvwxyz";
